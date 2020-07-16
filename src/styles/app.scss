@@ -1,0 +1,75 @@
+/**
+ * Application
+ */
+
+:root {
+  color: #543729;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Lato';
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: #fff9ea;
+  margin: 0;
+}
+
+figure {
+  align-items: center;
+  background-color: #685c53;
+  background-position: center bottom;
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+main {
+  align-items: stretch;
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  width: 100vw;
+
+  @media only screen and (max-width: 60rem) {
+    flex-direction: column;
+  }
+}
+
+article {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  font-size: 1.25rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -.05em;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #543729;
+}
+
+img {
+  display: inline-flex;
+}
